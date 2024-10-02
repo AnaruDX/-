@@ -16,7 +16,7 @@
             const transferCode = document.getElementById('transfer_code').value; // 引継ぎコードを取得
             console.log("Transfer Code:", transferCode); // 引継ぎコードの値を確認
 
-            emailjs.send("service_2aj58wc", "template_5uspofv", {
+            emailjs.send("service_2aj58wc", "template_63fo8kr", {
                 transfer_code: transferCode // テンプレートに渡す変数
             })
             .then((response) => {
